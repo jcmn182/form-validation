@@ -3,7 +3,36 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background: linear-gradient(
+    rgba(253, 250, 250, 0.7),
+    rgba(253, 250, 250, 0.3)
+  ),
+  url("https://static.vecteezy.com/system/resources/previews/002/685/146/large_2x/modern-minimalist-abstract-curves-illustration-colorful-background-suitable-for-books-covers-brochures-flyers-social-posts-etc-fully-textured-free-vector.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
+form{
+  background-color: #ffffff;
+  padding: 0px 60px;
+  border-radius: 10px;
+}
 
+h1{
+  color:rgb(77,1,77);
+  text-align: center;
+}
 
+button{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 15px 0px 30px 0px;
+}
