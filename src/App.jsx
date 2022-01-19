@@ -6,8 +6,10 @@ import {FormInput} from './components/FormInput.jsx'
 //handles
 
 const handleSubmit = (e) =>{
+  console.log(e)
   e.preventDefault();
   const subData = new FormData(e.target)
+  console.log(subData)
   const data = Object.fromEntries(subData.entries())
   console.log(data)
 }
